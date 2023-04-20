@@ -1,5 +1,5 @@
 import math
-decisao = int(input('digite um valor para o tipo da função, 1 ou 2: '))
+decisao = int(input(''))
 
 if decisao < 1 or decisao > 2 : 
     print('Grau inválido')
@@ -15,11 +15,11 @@ elif decisao == 1:
         print(f"{a}x + {b} = 0")
         print(f'x = {x:.2f}')
 elif decisao == 2: 
-    print('A equação é do segundo grau.')
+    print('A equação é do segundo grau')
     a = float(input('digite o valor de a: '))
    
     if a == 0: 
-        print('valor invalido')
+        print('Valor de a inválido')
     else :  
         b = float(input('digite o valor de b: '))
         c = float(input('digite o valor de c: '))
