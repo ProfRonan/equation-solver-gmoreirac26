@@ -1,3 +1,4 @@
+# Commit para fazer o autograde rodar de novo.
 import math
 decisao = int(input(''))
 
